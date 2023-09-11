@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(245, 13, 13);
+    background-image: image(ba);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(246, 236, 11);
+    background: radial-gradient(circle, rgba(246, 236, 11, 1) 0%, rgba(255, 0, 26, 1) 100%);
+}
+
+.menu {
+    padding: 5px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    padding: 20px;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.menu li a:hover {
+    color: rgb(13, 171, 245);
+    background-color: rgb(139, 19, 103);
+    border-radius: 70%;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(4, 2, 26);
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.lultimate {
+    text-align: center;
+}
+
+ul {
+    padding: 2rem;
+}
+
+.introduccion,
+.historia {
+    padding: 2rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.introduccion {
+    font-style: italic;
+    border: 3px red dotted;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.sectionImagen {
+    text-align: center;
+}
+
+.img1 {
+    border-radius: 1rem;
+    width: 1000px;
+}
+
+footer {
+    background: rgb(246, 236, 11);
+    background: radial-gradient(circle, rgba(246, 236, 11, 1) 0%, rgba(255, 0, 26, 1) 100%);
+}
+
+h4 {
+    padding: 15px;
+    font-size: 1, 5rem;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(17, 30, 226);
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    font-size: 1, 5rem;
+}
+
+.grab {
+    height: 200px;
+    background-image: url(../img/interlaced.png);
+
+}
+
+.caja {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(29, 194, 43);
+    padding: 20px;
+    margin: 10px;
+    overflow: auto;
+
+
+}
+
+.video {
+    text-align: center;
+}
+
+.divcharly {
+    background-color: aqua;
+    height: 400px;
+}
+
+.divgus {
+    background-color: greenyellow;
+    height: 400px;
+}
+.divadri {
+   background-color: grey;
+    height: 400px;
+}
+
